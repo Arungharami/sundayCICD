@@ -27,6 +27,9 @@ public class TestMath_1 {
         int. returnedVlue = obj.Add2Numbers(10,12);
         Assert.assertEquals(returnedVlue,30);
 
-        int returnedVlueFor19
+        int returnedVlueFor19 = obj.Add2Numbers(-5 , 5);
+        Assert.assertEquals(returnedVlue,30);
+
+        Assert.assertEquals(obj)
     }
 }
